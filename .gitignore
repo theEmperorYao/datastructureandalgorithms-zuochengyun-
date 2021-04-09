@@ -66,3 +66,5 @@ src/test/
 target/generated-sources/
 target/generated-test-sources/
 target/test-classes/
+.idea
+.
