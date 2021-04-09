@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ce324c7-5d61-4aa4-8128-81fbc7b2045c" name="Default Changelist" comment="" />
+    <list default="true" id="6ce324c7-5d61-4aa4-8128-81fbc7b2045c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructureandalgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/datastructureandalgorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/javaprograming/chap1/Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/javaprograming/chap2Class/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/MagicIndexLCCI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/leetcode1to100/leetcode1to10/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/leetcode1to100/leetcode1to10/q1_TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/leetcode1to100/leetcode1to10/q2_AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/leetcode1to100/leetcode1to10/q3_longestsubstringwithoutrepeatingcharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/leetcode1to100/leetcode1to10/q7_ReverseInteger.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +44,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fS89HtMZzXPDcDV8Rvkq0xDc1U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,17 +56,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowLuaCheck.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/mall" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1617357" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -171,18 +205,39 @@
       <workItem from="1616682349235" duration="617000" />
       <workItem from="1616921704076" duration="3329000" />
       <workItem from="1617812260214" duration="129000" />
-      <workItem from="1617976425581" duration="875000" />
+      <workItem from="1617976425581" duration="1393000" />
+      <workItem from="1617977829318" duration="377000" />
+      <workItem from="1617978217534" duration="806000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1614708830431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1614708830431" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1617978828720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1617978828720" />
+    <state x="703" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617978331649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="703" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617978331649" />
     <state x="736" y="400" width="483" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1610551045539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -227,6 +282,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="319" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184635" />
+    <state x="108" y="261" key="SettingsEditor" timestamp="1617978205934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="108" y="261" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617978205934" />
+    <state x="840" y="434" key="VCS.EditChangelistDialog" timestamp="1617978158850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="840" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617978158850" />
     <state x="731" y="331" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610801914390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -235,14 +298,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="279" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614709510242" />
+    <state x="752" y="529" key="git4idea.merge.GitPullDialog" timestamp="1617977777693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="529" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617977777693" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1616925884853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616925884853" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615942978704">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617978288810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615942978704" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617978288810" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
