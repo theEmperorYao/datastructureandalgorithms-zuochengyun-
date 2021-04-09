@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ce324c7-5d61-4aa4-8128-81fbc7b2045c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fS89HtMZzXPDcDV8Rvkq0xDc1U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="E:/mall" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.1617357" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="left.base.class01" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\datastructureandalgorithms\src\main\java\left\base\ff" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Code03_MaxWidth">
+    <configuration name="Code03_MaxWidth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="left.base.class05.Code03_MaxWidth" />
+      <module name="datastructureandalgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="left.base.class05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code_10_CopyListWithRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="left.base.class04.Code_10_CopyListWithRandom" />
+      <module name="datastructureandalgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="left.base.class04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code_11_FindFirstIntersectNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="left.base.class04.Code_11_FindFirstIntersectNode" />
+      <module name="datastructureandalgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="left.base.class04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1_OrderRecur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optimalsolution.chap3_binarytree.Q1_OrderRecur" />
+      <module name="datastructureandalgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optimalsolution.chap3_binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2_Nonrecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optimalsolution.chap3_binarytree.Q2_Nonrecursive" />
+      <module name="datastructureandalgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optimalsolution.chap3_binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Code03_MaxWidth" />
+        <item itemvalue="Application.Q2_Nonrecursive" />
+        <item itemvalue="Application.Q1_OrderRecur" />
+        <item itemvalue="Application.Code_11_FindFirstIntersectNode" />
+        <item itemvalue="Application.Code_10_CopyListWithRandom" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ce324c7-5d61-4aa4-8128-81fbc7b2045c" name="Default Changelist" comment="" />
+      <created>1596199980200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596199980200</updated>
+      <workItem from="1596199982936" duration="8775000" />
+      <workItem from="1596267058348" duration="1185000" />
+      <workItem from="1596268263160" duration="7053000" />
+      <workItem from="1597833975905" duration="5672000" />
+      <workItem from="1597894645953" duration="2332000" />
+      <workItem from="1597998002731" duration="1385000" />
+      <workItem from="1602559399683" duration="18264000" />
+      <workItem from="1603339339043" duration="17902000" />
+      <workItem from="1603620943585" duration="32737000" />
+      <workItem from="1603881918366" duration="39062000" />
+      <workItem from="1604332979958" duration="7962000" />
+      <workItem from="1604375144894" duration="6260000" />
+      <workItem from="1605868299852" duration="52000" />
+      <workItem from="1605868361523" duration="62000" />
+      <workItem from="1606837074255" duration="3220000" />
+      <workItem from="1606920478474" duration="2328000" />
+      <workItem from="1607155295981" duration="7000" />
+      <workItem from="1607155932136" duration="16000" />
+      <workItem from="1607157303771" duration="25000" />
+      <workItem from="1607443627515" duration="615000" />
+      <workItem from="1607616262841" duration="607000" />
+      <workItem from="1608307589378" duration="829000" />
+      <workItem from="1608922179439" duration="30000" />
+      <workItem from="1609772189336" duration="3410000" />
+      <workItem from="1610545556596" duration="4091000" />
+      <workItem from="1610635204142" duration="4716000" />
+      <workItem from="1610801658500" duration="8041000" />
+      <workItem from="1610874187665" duration="8160000" />
+      <workItem from="1610978122707" duration="5189000" />
+      <workItem from="1611670999815" duration="101000" />
+      <workItem from="1614694082072" duration="9101000" />
+      <workItem from="1615221944573" duration="322000" />
+      <workItem from="1615735355299" duration="5468000" />
+      <workItem from="1615941918853" duration="1948000" />
+      <workItem from="1616025963000" duration="2894000" />
+      <workItem from="1616598544469" duration="915000" />
+      <workItem from="1616682349235" duration="617000" />
+      <workItem from="1616921704076" duration="3329000" />
+      <workItem from="1617812260214" duration="129000" />
+      <workItem from="1617976425581" duration="875000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1614708830431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1614708830431" />
+    <state x="736" y="400" width="483" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1610551045539">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="400" width="483" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1610551045539" />
+    <state width="442" height="466" key="DebuggerActiveHint" timestamp="1616027611508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="442" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1616027611508" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1611671045730">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611671045730" />
+    <state width="1877" height="184" key="GridCell.Tab.0.bottom" timestamp="1616030184640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184640" />
+    <state width="1877" height="184" key="GridCell.Tab.0.center" timestamp="1616030184640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="184" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184640" />
+    <state width="1877" height="184" key="GridCell.Tab.0.left" timestamp="1616030184640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="184" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184640" />
+    <state width="1877" height="184" key="GridCell.Tab.0.right" timestamp="1616030184640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="184" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184640" />
+    <state width="1877" height="319" key="GridCell.Tab.1.bottom" timestamp="1616030184636">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="319" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184636" />
+    <state width="1877" height="319" key="GridCell.Tab.1.center" timestamp="1616030184635">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="319" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184635" />
+    <state width="1877" height="319" key="GridCell.Tab.1.left" timestamp="1616030184635">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="319" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184635" />
+    <state width="1877" height="319" key="GridCell.Tab.1.right" timestamp="1616030184635">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="319" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184635" />
+    <state x="731" y="331" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610801914390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="331" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610801914390" />
+    <state x="690" y="279" key="extract.method.dialog" timestamp="1614709510243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="279" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614709510242" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1616925884853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616925884853" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615942978704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615942978704" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/MagicIndexLCCI.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/MagicIndexLCCI.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/leetcode1to100/leetcode1to10/q2_AddTwoNumbers.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class01/SmallSum.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/ff/Test.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/ff/Test.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/ff/Test.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class02/QuickSort.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class01/MaxGap.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class03/ArrayToQueue.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class03/ArrayToQueue.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class03/TwoStacksQueue.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_02_SpiralOrder.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_02_SpiralOrder.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_02_SpiralOrder.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_02_SpiralOrder.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_05_ZhiPrint.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_06_FindNumberIn2DArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_08_IsPalindrome.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_08_IsPalindrome.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_09_BreakDownList.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="head.value==10631" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_09_BreakDownList.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_09_BreakDownList.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_09_BreakDownList.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_10_CopyListWithRandom.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_10_CopyListWithRandom.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/javaprograming/chap1/Function.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_11_FindFirstIntersectNode.java</url>
+          <line>170</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class04/Code_11_FindFirstIntersectNode.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/optimalsolution/chap3_binarytree/Q1_OrderRecur.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="cur.value==7" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class05/Code03_MaxWidth.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="left.base.class04.Code_10_CopyListWithRandom$Node" fieldName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/datastructureandalgorithms$HeapSort.ic" NAME="HeapSort Coverage Results" MODIFIED="1603718223696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>left.base.class02.*</FILTER>
+    </SUITE>
+  </component>
+</project>
