@@ -20,16 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ce324c7-5d61-4aa4-8128-81fbc7b2045c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/left/base/class05/Code05_ISCBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/left/base/class05/Code06_IsBalancedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/left/base/class05/Code08_SuccessorNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/left/base/class05/Code09_SerializeAndReconstructTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/left/base/class05/Code10_PaperFolding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructureandalgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/datastructureandalgorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaprograming/chap1/Function.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaprograming/chap2Class/Class.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/MagicIndexLCCI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/leetcode1to100/leetcode1to10/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/leetcode1to100/leetcode1to10/q1_TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/leetcode1to100/leetcode1to10/q2_AddTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/leetcode1to100/leetcode1to10/q3_longestsubstringwithoutrepeatingcharacters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/leetcode1to100/leetcode1to10/q7_ReverseInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/optimalsolution/chap3_binarytree/Q1_OrderRecur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/left/base/class05/Code01_OrderRecur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/optimalsolution/chap3_binarytree/Q2_Nonrecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/left/base/class05/Code02_Nonrecursive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +78,9 @@
       <recent name="D:\Code\datastructureandalgorithms\src\main\java\left\base\ff" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code03_MaxWidth">
-    <configuration name="Code03_MaxWidth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="left.base.class05.Code03_MaxWidth" />
+  <component name="RunManager" selected="Application.Code10_PaperFolding">
+    <configuration name="Code04_IsBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="left.base.class05.Code04_IsBST" />
       <module name="datastructureandalgorithms" />
       <extension name="coverage">
         <pattern>
@@ -94,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code_10_CopyListWithRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="left.base.class04.Code_10_CopyListWithRandom" />
+    <configuration name="Code07_LowestCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="left.base.class05.Code07_LowestCommonAncestor" />
       <module name="datastructureandalgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="left.base.class04.*" />
+          <option name="PATTERN" value="left.base.class05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code_11_FindFirstIntersectNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="left.base.class04.Code_11_FindFirstIntersectNode" />
+    <configuration name="Code08_SuccessorNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="left.base.class05.Code08_SuccessorNode" />
       <module name="datastructureandalgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="left.base.class04.*" />
+          <option name="PATTERN" value="left.base.class05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1_OrderRecur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optimalsolution.chap3_binarytree.Q1_OrderRecur" />
+    <configuration name="Code09_SerializeAndReconstructTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="left.base.class05.Code09_SerializeAndReconstructTree" />
       <module name="datastructureandalgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="optimalsolution.chap3_binarytree.*" />
+          <option name="PATTERN" value="left.base.class05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2_Nonrecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optimalsolution.chap3_binarytree.Q2_Nonrecursive" />
+    <configuration name="Code10_PaperFolding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="left.base.class05.Code10_PaperFolding" />
       <module name="datastructureandalgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="optimalsolution.chap3_binarytree.*" />
+          <option name="PATTERN" value="left.base.class05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code03_MaxWidth" />
-        <item itemvalue="Application.Q2_Nonrecursive" />
-        <item itemvalue="Application.Q1_OrderRecur" />
-        <item itemvalue="Application.Code_11_FindFirstIntersectNode" />
-        <item itemvalue="Application.Code_10_CopyListWithRandom" />
+        <item itemvalue="Application.Code10_PaperFolding" />
+        <item itemvalue="Application.Code09_SerializeAndReconstructTree" />
+        <item itemvalue="Application.Code08_SuccessorNode" />
+        <item itemvalue="Application.Code07_LowestCommonAncestor" />
+        <item itemvalue="Application.Code04_IsBST" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +206,8 @@
       <workItem from="1617976425581" duration="1393000" />
       <workItem from="1617977829318" duration="377000" />
       <workItem from="1617978217534" duration="806000" />
+      <workItem from="1617979089201" duration="812000" />
+      <workItem from="1618117657857" duration="28550000" />
     </task>
     <servers />
   </component>
@@ -224,6 +224,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1614708830431">
@@ -238,58 +239,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617978331649" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1618142128774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618142128774" />
     <state x="736" y="400" width="483" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1610551045539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="400" width="483" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1610551045539" />
-    <state width="442" height="466" key="DebuggerActiveHint" timestamp="1616027611508">
+    <state width="445" height="466" key="DebuggerActiveHint" timestamp="1618156599756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="442" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1616027611508" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1611671045730">
+    <state width="445" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1618156599756" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1618143858120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611671045730" />
-    <state width="1877" height="184" key="GridCell.Tab.0.bottom" timestamp="1616030184640">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618143858120" />
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom" timestamp="1618158781680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184640" />
-    <state width="1877" height="184" key="GridCell.Tab.0.center" timestamp="1616030184640">
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618158781680" />
+    <state width="1877" height="322" key="GridCell.Tab.0.center" timestamp="1618158781680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="184" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184640" />
-    <state width="1877" height="184" key="GridCell.Tab.0.left" timestamp="1616030184640">
+    <state width="1877" height="322" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618158781680" />
+    <state width="1877" height="322" key="GridCell.Tab.0.left" timestamp="1618158781680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="184" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184640" />
-    <state width="1877" height="184" key="GridCell.Tab.0.right" timestamp="1616030184640">
+    <state width="1877" height="322" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618158781680" />
+    <state width="1877" height="322" key="GridCell.Tab.0.right" timestamp="1618158781680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="184" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184640" />
-    <state width="1877" height="319" key="GridCell.Tab.1.bottom" timestamp="1616030184636">
+    <state width="1877" height="322" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618158781680" />
+    <state width="1877" height="322" key="GridCell.Tab.1.bottom" timestamp="1618158781680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184636" />
-    <state width="1877" height="319" key="GridCell.Tab.1.center" timestamp="1616030184635">
+    <state width="1877" height="322" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618158781680" />
+    <state width="1877" height="322" key="GridCell.Tab.1.center" timestamp="1618158781680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184635" />
-    <state width="1877" height="319" key="GridCell.Tab.1.left" timestamp="1616030184635">
+    <state width="1877" height="322" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618158781680" />
+    <state width="1877" height="322" key="GridCell.Tab.1.left" timestamp="1618158781680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184635" />
-    <state width="1877" height="319" key="GridCell.Tab.1.right" timestamp="1616030184635">
+    <state width="1877" height="322" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618158781680" />
+    <state width="1877" height="322" key="GridCell.Tab.1.right" timestamp="1618158781680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616030184635" />
+    <state width="1877" height="322" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618158781680" />
     <state x="108" y="261" key="SettingsEditor" timestamp="1617978205934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="108" y="261" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617978205934" />
+    <state x="681" y="261" width="582" height="524" key="StructurePopup" timestamp="1618123874585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="582" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1618123874585" />
     <state x="840" y="434" key="VCS.EditChangelistDialog" timestamp="1617978158850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="840" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617978158850" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618144424979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618144424979" />
     <state x="731" y="331" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610801914390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -302,14 +315,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="529" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617977777693" />
+    <state x="661" y="276" key="refactoring.ChangeSignatureDialog" timestamp="1618158721035">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="276" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618158721035" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1616925884853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616925884853" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617978288810">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618155489155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617978288810" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618155489155" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -461,7 +478,7 @@
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/optimalsolution/chap3_binarytree/Q1_OrderRecur.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class05/Code01_OrderRecur.java</url>
           <line>80</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
@@ -470,6 +487,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/left/base/class05/Code03_MaxWidth.java</url>
           <line>43</line>
           <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class05/Code04_IsBST.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class05/Code07_LowestCommonAncestor.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class05/Code07_LowestCommonAncestor.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class05/Code07_LowestCommonAncestor.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/left/base/class05/Code08_SuccessorNode.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

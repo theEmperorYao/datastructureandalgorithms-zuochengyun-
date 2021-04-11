@@ -1,4 +1,4 @@
-package optimalsolution.chap3_binarytree;
+package left.base.class05;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +25,7 @@ class Node {
  * static 作用
  * 三次到达自己，但是选择打印的时机不同来实现
  */
-public class Q1_OrderRecur {
+public class Code01_OrderRecur {
     static List<Integer> preOrderList = new ArrayList<>();
     static List<Integer> inOrderList = new ArrayList<>();
     static List<Integer> postOrderList = new ArrayList<>();

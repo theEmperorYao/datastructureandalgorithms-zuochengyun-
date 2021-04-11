@@ -1,4 +1,4 @@
-package optimalsolution.chap3_binarytree;
+package left.base.class05;
 
 import java.util.Stack;
 
@@ -9,7 +9,7 @@ import java.util.Stack;
  * @createTime 2021年01月04日 23:17:00
  */
 
-public class Q2_Nonrecursive {
+public class Code02_Nonrecursive {
 
     /**
      * 非递归先序遍历
