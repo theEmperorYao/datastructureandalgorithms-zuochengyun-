@@ -24,4 +24,15 @@ public class Node {
         this.nodes = new ArrayList<>();
         this.edges = new ArrayList<>();
     }
+
+//    @Override
+//    public String toString() {
+//        return "Node{" +
+//                "value=" + value +
+//                ", from=" + from +
+//                ", to=" + to +
+//                ", nodes=" + nodes +
+//                ", edges=" + edges +
+//                '}';
+//    }
 }

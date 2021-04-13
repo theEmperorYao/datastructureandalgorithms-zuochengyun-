@@ -39,10 +39,13 @@ public class GraphGenerator {
 
             fromNode.to++;
             toNode.from++;
+            fromNode.nodes.add(toNode);
 
             Edge edge = new Edge(fromNode, toNode, weight);
 
+            fromNode.edges.add(edge);
             graph.edges.add(edge);
+
 
         }
 
