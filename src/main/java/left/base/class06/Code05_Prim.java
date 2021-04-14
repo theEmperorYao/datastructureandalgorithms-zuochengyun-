@@ -45,6 +45,7 @@ public class Code05_Prim {
                         nodeSet.add(toNode);
                         result.add(edge);
 
+                        //会把重复的边放到队列里面，但是前面nodeSet检测直接就跳过了
                         for (Edge nextEdge : toNode.edges) {
                             edgesQueue.add(nextEdge);
                         }
