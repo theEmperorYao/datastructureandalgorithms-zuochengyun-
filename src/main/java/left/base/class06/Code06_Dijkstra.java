@@ -1,5 +1,7 @@
 package left.base.class06;
 
+import com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.DEREncodedKeyValueResolver;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -79,6 +81,171 @@ public class Code06_Dijkstra {
         Map<Node, Integer> dijkstraMap = dijkstra(node);
         dijkstraMap.forEach((k, v) -> System.out.println("k: " + k + "v: " + v));
 
+        HashMap<Node, Integer> nodeIntegerHashMap = dijkstra2(node, 5);
+
+        nodeIntegerHashMap.forEach((k, v) -> System.out.println("k: " + k + "v: " + v));
     }
 
+
+    public static class NodeRecord {
+        public Node node;
+        public int distance;
+
+        public NodeRecord(Node node, int distance) {
+            this.node = node;
+            this.distance = distance;
+        }
+    }
+
+
+    public static class NodeHeap {
+        private Node[] nodes;
+
+        // 记录结点在数组中位置，如果进入过又出去过，value 为 -1
+        private HashMap<Node, Integer> heapIndexMap;
+
+        // 记录任意顶点到 head 的最短距离
+        private HashMap<Node, Integer> distanceMap;
+
+        // 堆的容量
+        private int size;
+
+        public NodeHeap(int size) {
+            this.nodes = new Node[size];
+            this.heapIndexMap = new HashMap<>();
+            this.distanceMap = new HashMap<>();
+            this.size = 0;
+        }
+
+        public boolean isEmpty() {
+            return this.size == 0;
+        }
+
+        /**
+         * 新增或更新或者忽略 新加入的结点
+         *
+         * @param node     新的结点
+         * @param distance 新的结点到 head结点的距离
+         */
+        public void addOrUpdateOrIgnore(Node node, int distance) {
+            if (inHeap(node)) {
+                distanceMap.put(node, Math.min(distanceMap.get(node), distance));
+                insertHeapify(node, heapIndexMap.get(node));
+            }
+
+            if (!isEntered(node)) {
+                nodes[size] = node;
+                heapIndexMap.put(node, size);
+                distanceMap.put(node, distance);
+                insertHeapify(node, size++);
+            }
+        }
+
+        public NodeRecord pop() {
+            NodeRecord nodeRecord = new NodeRecord(nodes[0], distanceMap.get(nodes[0]));
+            swap(0, size - 1);
+            heapIndexMap.put(nodes[size - 1], -1);
+            distanceMap.remove(nodes[size - 1]);
+            nodes[size - 1] = null;
+            heapify(0, --size);
+            return nodeRecord;
+        }
+
+        private void heapify(int index, int size) {
+            int left = index * 2 + 1;
+            while (left < size) {
+                int smallest = left + 1 < size && distanceMap.get(nodes[left + 1]) < distanceMap.get(nodes[left])
+                        ? left + 1 : left;
+                smallest = distanceMap.get(nodes[smallest]) < distanceMap.get(nodes[index]) ? smallest : index;
+                if (smallest == index) {
+                    break;
+                }
+                swap(smallest, index);
+                index = smallest;
+                left = index * 2 + 1;
+            }
+        }
+
+
+        private void insertHeapify(Node node, Integer index) {
+            while (distanceMap.get(nodes[index]) < distanceMap.get(nodes[(index - 1) / 2])) {
+                swap(index, (index - 1) / 2);
+                index = (index - 1) / 2;
+            }
+        }
+
+        private boolean isEntered(Node node) {
+            return heapIndexMap.containsKey(node);
+        }
+
+        private boolean inHeap(Node node) {
+            return isEntered(node) && heapIndexMap.get(node) != -1;
+        }
+
+        private void swap(int index1, int index2) {
+            heapIndexMap.put(nodes[index1], index2);
+            heapIndexMap.put(nodes[index2], index1);
+
+            Node tmp = nodes[index1];
+            nodes[index1] = nodes[index2];
+            nodes[index2] = tmp;
+        }
+    }
+    public static HashMap<Node, Integer> dijkstra2(Node head, int size) {
+        NodeHeap nodeHeap = new NodeHeap(size);
+        nodeHeap.addOrUpdateOrIgnore(head, 0);
+        HashMap<Node, Integer> result = new HashMap<>();
+
+        while (!nodeHeap.isEmpty()) {
+            NodeRecord record = nodeHeap.pop();
+            Node cur = record.node;
+            int distance = record.distance;
+            for (Edge edge : cur.edges) {
+                nodeHeap.addOrUpdateOrIgnore(edge.to, edge.weight + distance);
+            }
+            result.put(cur, distance);
+        }
+        return result;
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
