@@ -1,6 +1,6 @@
 package left.base.class04;
 
-import com.sun.javafx.image.IntPixelGetter;
+
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
