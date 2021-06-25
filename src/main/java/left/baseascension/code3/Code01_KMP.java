@@ -1,4 +1,4 @@
-package left.baseascension.code12;
+package left.baseascension.code3;
 
 public class Code01_KMP {
 

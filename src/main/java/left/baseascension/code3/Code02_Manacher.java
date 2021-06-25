@@ -1,4 +1,4 @@
-package left.baseascension.code12;
+package left.baseascension.code3;
 
 /**
  * @Classname Code02_Manacher
