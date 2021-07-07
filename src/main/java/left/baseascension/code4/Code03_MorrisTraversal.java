@@ -115,6 +115,39 @@ public class Code03_MorrisTraversal {
         }
     }
 
+    public static boolean isBST(Node node) {
+        if (node == null) {
+            return true;
+        }
+        Node cur = node;
+        Node mostRight;
+        int preValue = Integer.MIN_VALUE;
+        while (cur != null) {
+            mostRight = cur.left;
+            if (mostRight != null) {
+                while (mostRight.right != null && mostRight.right != cur) {
+                    mostRight = mostRight.right;
+                }
+                if (mostRight.right == null) {// 第一次来
+                    mostRight.right = cur;
+                    cur = cur.left;
+                    continue;
+                } else {// 第二次来
+                    mostRight.right = null;
+                }
+            }
+            // 1）没有左孩子，直接向右移动
+            // 2）有左孩子，,但是mostRight.right ==  cur 会第二次来到节点位置
+            System.out.print(cur.value + " ");
+            if (cur.value <= preValue) {
+                return false;
+            }
+            preValue = cur.value;
+            cur = cur.right;
+        }
+        return true;
+    }
+
     /***
      * @description 第二次到达节点的时候，逆序打印左子树
      * @param node
@@ -194,6 +227,9 @@ public class Code03_MorrisTraversal {
         morrisIn(node1);
         System.out.println();
         morrisPos(node1);
+
+        boolean bst = isBST(node1);
+        System.out.println("bst = " + bst);
 
     }
 }
