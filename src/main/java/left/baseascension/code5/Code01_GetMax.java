@@ -6,7 +6,7 @@ package left.baseascension.code5;
  * @Date 2021/7/7 10:26 下午
  * @Created by tangyao
  */
-public class GetMax {
+public class Code01_GetMax {
 
 
     public static int flip(int n) {
