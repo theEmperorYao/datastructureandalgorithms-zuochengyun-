@@ -6,7 +6,7 @@ package left.base.class01;
  * @Date 2021/8/13 1:59 下午
  * @Created by tangyao
  */
-public class Code08_BSAwesome {
+public class Code_08_BSAwesome {
 
     public static int getLessIndex(int[] arr) {
         if (arr == null || arr.length == 0) {

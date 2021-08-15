@@ -6,16 +6,13 @@ package left.base.class02;
  * @Description TODO
  * @createTime 2020年10月25日 23:48:00
  */
-public class QuickSort {
+public class  QuickSort {
 
     public static void quickSort(int[] arr) {
         if (arr == null || arr.length < 2) {
             return;
         }
         quickSort(arr, 0, arr.length - 1);
-        for (int i : arr) {
-            System.out.print(i + " ");
-        }
     }
 
     public static void quickSort(int[] arr, int l, int r) {
