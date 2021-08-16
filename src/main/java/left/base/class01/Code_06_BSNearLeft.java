@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @Date 2021/8/13 12:34 下午
  * @Created by tangyao
  */
-public class Code_06BSNearLeft {
+public class Code_06_BSNearLeft {
 
     public static int nearestIndex(int[] arr, int value) {
 
