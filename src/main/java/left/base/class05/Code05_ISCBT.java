@@ -9,7 +9,7 @@ import java.util.List;
  * @Description TODO
  * @createTime 2021年04月11日 16:26:00
  */
-public class Code05_ISCBT {
+public class  Code05_ISCBT {
     static class Node {
         int value;
         Node left;

@@ -129,7 +129,7 @@ public class Code04_IsBST {
         return processHead(head).isBinarySearchTree;
     }
 
-    private static ReturnData processHead(Node head) {
+    private static ReturnData  processHead(Node head) {
         if (head == null) {
             return null;
         }
