@@ -26,7 +26,7 @@ public class Code02_PrintAllSubSquences {
 
         //1.要当前数据
         List<Character> resKeep = copyList(res);
-        res.add(str[i]);
+        resKeep.add(str[i]);
         process(str, i + 1, resKeep);
 
         //2.不要当前数据
