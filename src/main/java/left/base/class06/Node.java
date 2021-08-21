@@ -35,4 +35,9 @@ public class Node {
 //                ", edges=" + edges +
 //                '}';
 //    }
+
+
+    public int getValue() {
+        return value;
+    }
 }

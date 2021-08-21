@@ -12,8 +12,8 @@ import java.util.Queue;
  */
 public class Code06_FindMiddleNumber {
 
-    static Queue<Integer> largeHeap = new PriorityQueue<>((o1, o2) -> (o2 - o1) > 0 ? 1 : -1);
-    static Queue<Integer> smallHeap = new PriorityQueue<>((o1, o2) -> (o2 - o1) > 0 ? -1 : 1);
+    static Queue<Integer> largeHeap = new PriorityQueue<>((o1, o2) -> o2 - o1);
+    static Queue<Integer> smallHeap = new PriorityQueue<>((o1, o2) -> o1 - o2);
 
     public static int getMiddleNumber() {
         int largeHeapSize = largeHeap.size();

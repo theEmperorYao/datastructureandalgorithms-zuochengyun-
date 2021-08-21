@@ -2,10 +2,7 @@ package left.base.class06;
 
 
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author tangyao
@@ -81,7 +78,7 @@ public class Code06_Dijkstra {
         Map<Node, Integer> dijkstraMap = dijkstra(node);
         dijkstraMap.forEach((k, v) -> System.out.println("k: " + k + "v: " + v));
 
-        HashMap<Node, Integer> nodeIntegerHashMap = dijkstra2(node, 5);
+        Map<Node, Integer> nodeIntegerHashMap = dijkstra2(node, 5);
 
         nodeIntegerHashMap.forEach((k, v) -> System.out.println("k: " + k + "v: " + v));
     }
@@ -191,10 +188,10 @@ public class Code06_Dijkstra {
             nodes[index2] = tmp;
         }
     }
-    public static HashMap<Node, Integer> dijkstra2(Node head, int size) {
+    public static Map<Node, Integer> dijkstra2(Node head, int size) {
         NodeHeap nodeHeap = new NodeHeap(size);
         nodeHeap.addOrUpdateOrIgnore(head, 0);
-        HashMap<Node, Integer> result = new HashMap<>();
+        Map<Node, Integer> result = new TreeMap<>(Comparator.comparing(Node::getValue));
 
         while (!nodeHeap.isEmpty()) {
             NodeRecord record = nodeHeap.pop();
