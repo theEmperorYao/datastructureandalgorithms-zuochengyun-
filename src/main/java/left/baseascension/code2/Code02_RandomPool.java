@@ -1,6 +1,9 @@
 package left.baseascension.code2;
 
+import left.baseCopy.Code_30_RandomPool;
+
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author tangyao
@@ -10,52 +13,50 @@ import java.util.HashMap;
  */
 public class Code02_RandomPool {
 
-    public static class Pool<K> {
+    static class RandomPool<V> {
 
-        HashMap<K, Integer> keyIndexMap;
-        HashMap<Integer, K> indexKeyMap;
+        Map<Integer, V> indexKeyMap;
+        Map<V, Integer> keyIndexMap;
         int size;
 
-        public Pool() {
-            this.keyIndexMap = new HashMap<>();
+        public RandomPool() {
             this.indexKeyMap = new HashMap<>();
+            this.keyIndexMap = new HashMap<>();
             size = 0;
         }
 
-        public void insert(K key) {
-
-            if (!keyIndexMap.containsKey(key)) {
-                keyIndexMap.put(key, size);
-                indexKeyMap.put(size++, key);
+        public void insert(V v) {
+            if (!keyIndexMap.containsKey(v)) {
+                indexKeyMap.put(size, v);
+                keyIndexMap.put(v, size++);
             }
 
         }
 
-        public void delete(K key) {
-            if (keyIndexMap.containsKey(key)) {
-                Integer deleteIndex = keyIndexMap.get(key);
+        public void delete(V v) {
+            if (keyIndexMap.containsKey(v)) {
+                Integer deleteIndex = keyIndexMap.get(v);
                 Integer lastIndex = --size;
-                K lastKey = indexKeyMap.get(lastIndex);
-                keyIndexMap.put(lastKey, deleteIndex);
+                V lastKey = indexKeyMap.get(lastIndex);
+
+                indexKeyMap.remove(lastIndex);
                 indexKeyMap.put(deleteIndex, lastKey);
 
-                indexKeyMap.remove(deleteIndex);
-                keyIndexMap.remove(key);
-
+                keyIndexMap.put(lastKey, deleteIndex);
+                keyIndexMap.remove(v);
             }
+
         }
 
-        public K getRandom() {
-
+        public V getRandom() {
             return size == 0
                     ? null
                     : indexKeyMap.get((int) (Math.random() * size));
         }
     }
 
-
     public static void main(String[] args) {
-        Pool<String> pool = new Pool<String>();
+        RandomPool<String> pool = new RandomPool<String>();
         pool.insert("zuo");
         pool.insert("cheng");
         pool.insert("yun");
@@ -65,5 +66,11 @@ public class Code02_RandomPool {
         System.out.println(pool.getRandom());
         System.out.println(pool.getRandom());
         System.out.println(pool.getRandom());
+
+        pool.delete("zuo");
+        pool.indexKeyMap.forEach((k, v) -> System.out.print(k + " : " + v + " "));
+        System.out.println();
+        pool.keyIndexMap.forEach((k, v) -> System.out.print(k + " : " + v + " "));
+
     }
 }
