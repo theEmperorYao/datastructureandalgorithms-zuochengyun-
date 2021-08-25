@@ -30,7 +30,7 @@ public class Code02_Manacher {
         int[] pArr = new int[charArr.length];
         //记录中间位置
         int middle = -1;
-        //右边界位置
+        //回文右边界再往右一个位置，最右值有效区域是R-1位置
         int right = -1;
 
         int max = Integer.MIN_VALUE;

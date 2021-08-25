@@ -29,7 +29,7 @@ public class Code03_SlidingWindowMaxArray {
             return null;
         }
 
-        //双端队列
+        //双端队列 维持的信息是 某一时刻，窗口不扩（R不动），L依次往右动，谁会成为最大值的优先级信息
         Deque<Integer> deque = new LinkedList<>();
         List<Integer> result = new ArrayList<>();
 

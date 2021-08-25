@@ -28,7 +28,7 @@ public class Code05_AllTimesMinToMax {
         for (int i = 0; i < arr.length; i++) {
 
             // 从上往下计算出最大 乘积的值
-            while (!stack.isEmpty() && arr[stack.peek()] > arr[i]) {
+            while (!stack.isEmpty() && arr[stack.peek()] >= arr[i]) {
                 Integer pop = stack.pop();
                 // 如果能弹出，说明后面有一个较小的值，那么对于前面的值进行分段 求和 并 相乘
                 max = Math.max(max, (stack.isEmpty() ? sum[i - 1] : sum[i - 1] - sum[stack.peek()]) * arr[pop]);
@@ -48,6 +48,25 @@ public class Code05_AllTimesMinToMax {
     public static void main(String[] args) {
         int[] arr = new int[]{5,6,2,8,10,1};
         int max = getMax(arr);
+        int max2 = max1(arr);
+        System.out.println("max2 = " + max2);
+        
         System.out.println("max = " + max);
+    }
+
+    public static int max1(int[] arr) {
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i; j < arr.length; j++) {
+                int minNum = Integer.MAX_VALUE;
+                int sum = 0;
+                for (int k = i; k <= j; k++) {
+                    sum += arr[k];
+                    minNum = Math.min(minNum, arr[k]);
+                }
+                max = Math.max(max, minNum * sum);
+            }
+        }
+        return max;
     }
 }

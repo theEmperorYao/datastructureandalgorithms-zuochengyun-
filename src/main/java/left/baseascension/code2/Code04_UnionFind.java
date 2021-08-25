@@ -1,7 +1,5 @@
 package left.baseascension.code2;
 
-import left.baseCopy.Code_32_UnionFind;
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -103,11 +101,11 @@ public class Code04_UnionFind {
         sameSet = unionFindSet.isSameSet(1, 4);
         System.out.println("sameSet = " + sameSet);
 
-        unionFindSet.union(5,3);
-        unionFindSet.union(3,6);
+        unionFindSet.union(5, 3);
+        unionFindSet.union(3, 6);
         boolean sameSet1 = unionFindSet.isSameSet(3, 4);
         System.out.println("sameSet1 = " + sameSet1);
-        unionFindSet.union(3,4);
+        unionFindSet.union(3, 4);
         boolean sameSet2 = unionFindSet.isSameSet(3, 4);
         System.out.println("sameSet2 = " + sameSet2);
 

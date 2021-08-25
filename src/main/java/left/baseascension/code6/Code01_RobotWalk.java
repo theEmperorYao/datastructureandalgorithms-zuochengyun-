@@ -1,85 +1,44 @@
 package left.baseascension.code6;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 /**
  * @Classname T
  * @Description TODO
- * @Date 2021/7/24 9:58 下午
+ * @Date 2021/8/26 0:00
  * @Created by tangyao
  */
 public class Code01_RobotWalk {
 
-    public final static AtomicInteger atomicInteger = new AtomicInteger();
-    public final static AtomicInteger atomicInteger2 = new AtomicInteger();
-
-    /***
+    /**
+     * @param n    N个位置
+     * @param cur  当前位置
+     * @param rest 剩余步数
+     * @param aim  目标位置
+     * @return void
      * @description
-     * @param n n个位置
-     * @param end 到达的位置
-     * @param rest 剩余的步数 (可变 ，逐渐减小）
-     * @param cur 当前位置（可变）
-     * @return int
      * @version V1.0.0
-     * @date 10:13 下午 2021/7/24
+     * @date 8:42 下午 2021/8/25
      * @author tangyao
      */
-    public static int walk1(int n, int end, int rest, int cur) {
+    public static int walk1(int n, int cur, int rest, int aim) {
         if (rest == 0) {
-            //base case
-            atomicInteger.getAndAdd(1);
-            return cur == end ? 1 : 0;
+            return cur == aim ? 1 : 0;
         } else if (cur == 1) {
-            return walk1(n, cur + 1, rest - 1, end);
+            return walk1(n, cur + 1, rest - 1, aim);
         } else if (cur == n) {
-            return walk1(n, cur - 1, rest - 1, end);
+            return walk1(n, cur - 1, rest - 1, aim);
         } else {
-            return walk1(n, cur + 1, rest - 1, end) + walk1(n, cur - 1, rest - 1, end);
-
+            return walk1(n, cur + 1, rest - 1, aim) + walk1(n, cur - 1, rest - 1, aim);
         }
     }
 
-    public static int ways1(int n, int end, int rest, int cur) {
-        if (n < 0 || end < 1 || end > n || rest < 1 || cur < 1 || cur > n) {
+
+    public static int walk2(int n, int cur, int rest, int aim) {
+
+        if (n < 2 || cur < 1 || cur > n || rest < 0 || aim < 0 || aim > n) {
             return 0;
         }
-        return walk1(n, end, rest, cur);
-    }
 
-
-    public static int walk2(int n, int end, int rest, int cur, int[][] dp) {
-
-        //缓存命中
-        if (dp[rest][cur] != -1) {
-            return dp[rest][cur];
-        }
-
-
-        //没命中
-        if (rest == 0) {
-            //base case
-            dp[rest][cur] = (cur == end ? 1 : 0);
-        } else if (cur == 1) {
-            dp[rest][cur] = walk1(n, cur + 1, rest - 1, end);
-        } else if (cur == n) {
-            dp[rest][cur] = walk1(n, cur - 1, rest - 1, end);
-        } else {
-            dp[rest][cur] = walk1(n, cur + 1, rest - 1, end) + walk1(n, cur - 1, rest - 1, end);
-        }
-
-
-        return dp[rest][cur];
-    }
-
-    /**
-     * 加缓存
-     */
-    public static int ways2(int n, int end, int rest, int cur) {
-        if (n < 0 || end < 1 || end > n || rest < 1 || cur < 1 || cur > n) {
-            return 0;
-        }
-        // rest 取值 0~ rest cur范围为1~n ，不能取0
-        int[][] dp = new int[rest + 1][cur + 1];
+        int[][] dp = new int[n + 1][rest + 1];
 
         for (int i = 0; i < dp.length; i++) {
             for (int j = 0; j < dp[i].length; j++) {
@@ -87,25 +46,70 @@ public class Code01_RobotWalk {
             }
         }
 
-        return walk2(n, end, rest, cur, dp);
+        return walk2(n, cur, rest, aim, dp);
+    }
+
+    public static int walk2(int N, int cur, int rest, int aim, int[][] dp) {
+
+        if (dp[cur][rest] != -1) {
+            return dp[cur][rest];
+        }
+        if (rest == 0) {
+            dp[cur][rest] = cur == aim ? 1 : 0;
+        } else if (cur == 1) {
+            dp[cur][rest] = walk2(N, cur + 1, rest - 1, aim, dp);
+        } else if (cur == N) {
+            dp[cur][rest] = walk2(N, cur - 1, rest - 1, aim, dp);
+        } else {
+            dp[cur][rest] = walk2(N, cur + 1, rest - 1, aim, dp) + walk2(N, cur - 1, rest - 1, aim, dp);
+        }
+
+        return dp[cur][rest];
+    }
+
+    public static int walk3(int n, int cur, int rest, int aim) {
+
+        if (n < 2 || cur < 1 || cur > n || rest < 0 || aim < 0 || aim > n) {
+            return 0;
+        }
+        int[][] dp = new int[n + 1][rest + 1];
+        dp[aim][0] = 1;
+        for (int j = 1; j <= rest; j++) {
+            for (int i = 1; i <= n; i++) {
+                if (i == 1) {
+                    dp[i][j] = dp[2][j - 1];
+                } else if (i == n) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else {
+                    dp[i][j] = dp[i + 1][j - 1] + dp[i - 1][j - 1];
+                }
+            }
+        }
+        return dp[cur][rest];
+
     }
 
 
     public static void main(String[] args) {
+
         long start = System.nanoTime();
-        int times1 = ways1(100, 4, 20, 10);
-        long end = System.nanoTime();
+        int times1 = walk1(100, 4, 20, 10);
         System.out.println("times1 = " + times1);
-        System.out.println("atomicInteger = " + atomicInteger);
-        System.out.println("消耗时间" + (end - start));
+        long end = System.nanoTime();
+        System.out.println("end - start = " + (end - start));
 
-        long start2 = System.nanoTime();
-        int times2 = ways2(100, 4, 20, 10);
-        long end2 = System.nanoTime();
+        start = System.nanoTime();
+        int times2 = walk2(100, 4, 20, 10);
+        end = System.nanoTime();
         System.out.println("times2 = " + times2);
-        System.out.println("atomicInteger2 = " + atomicInteger2);
+        System.out.println("end - start = " + (end - start));
 
-        System.out.println("消耗时间" + (end2 - start2));
+        start = System.nanoTime();
+        int times3 = walk3(100, 4, 20, 10);
+        end = System.nanoTime();
+        System.out.println("times3 = " + times3);
+        System.out.println("end - start = " + (end - start));
+
     }
 
 }

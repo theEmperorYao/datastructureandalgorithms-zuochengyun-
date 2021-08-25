@@ -138,7 +138,6 @@ public class Code03_MorrisTraversal {
             }
             // 1）没有左孩子，直接向右移动
             // 2）有左孩子，,但是mostRight.right ==  cur 会第二次来到节点位置
-            System.out.print(cur.value + " ");
             if (cur.value <= preValue) {
                 return false;
             }
@@ -185,6 +184,7 @@ public class Code03_MorrisTraversal {
 
     }
 
+    // 打印左子树有边界逆序
     private static Node reverseList(Node from) {
 
         Node pre = null;

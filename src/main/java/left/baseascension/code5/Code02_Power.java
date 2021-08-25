@@ -19,8 +19,9 @@ public class Code02_Power {
     }
 
     public static boolean is4Power(int n) {
-
-        //0x55555555 为 ....01010101 32位，因为4的幂只能在0，2，4，8...位置为1且只有1个1（首先满足是2的幂）
+        //先保证是2的幂，然后保证唯一的1是在指定位置
+        // 第一个条件表示只有一个1,（2的幂就只能有一个1）
+        //0x55555555 为 ....01010101 32位，因为4的幂只能在0，2，4，6，8...位置为1且只有1个1（首先满足是2的幂）
         return (n & (n - 1)) == 0 && (n & 0x55555555) != 0;
     }
 
@@ -31,6 +32,9 @@ public class Code02_Power {
         System.out.println(is2Power2(4));
         System.out.println(is4Power(10));
         System.out.println(is4Power(4));
+
+
+        System.out.println(33 & 0x55555555);
     }
 
 }

@@ -36,7 +36,7 @@ public class Code01_GetMax {
         // a和b的符号不一样为0，一样为1
         int sameSab = flip(disSab);
         //如果符号不相同(disSab==1)，且A是非负数(signA==1)，
-        // 或者 符号相同(sameSab == 1)，A>=B(差值C>=0，signC==1),因为符号相同作差不会溢出
+        // 或者(因为disSab和sameSab互斥) 符号相同(sameSab == 1)，A>=B(差值C>=0，signC==1),因为符号相同作差不会溢出
         int returnA = disSab * signA + sameSab * signC;
         int returnB = flip(returnA);
 
@@ -55,5 +55,6 @@ public class Code01_GetMax {
         b = -2147480000;
         System.out.println(getMax1(a, b)); // wrong answer because of overflow
         System.out.println(getMax2(a, b));
+
     }
 }
