@@ -56,8 +56,8 @@ public class Code08_CardsInLine {
         int[][] f = new int[arr.length][arr.length];
         int[][] s = new int[arr.length][arr.length];
 
+        // 从左到右，从上往下
         for (int j = 0; j < arr.length; j++) {
-
             f[j][j] = arr[j];
             for (int i = j - 1; i >= 0; i--) {
                 f[i][j] = Math.max(arr[i] + s[i + 1][j], arr[j] + s[i][j - 1]);
