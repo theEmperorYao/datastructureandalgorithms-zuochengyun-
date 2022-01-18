@@ -1,5 +1,7 @@
 package left.base.class03;
 
+import left.baseCopy.copy2.Code_08_ReverseList;
+
 /**
  * @Classname ReverseList
  * @Description TODO
@@ -16,6 +18,16 @@ public class ReverseList {
         }
 
         public Node() {
+        }
+    }
+
+    static class DoubleNode {
+        public int value;
+        DoubleNode next;
+        DoubleNode pre;
+
+        public DoubleNode(int value) {
+            this.value = value;
         }
     }
 
@@ -53,6 +65,45 @@ public class ReverseList {
             newNode.next = cur;
         }
         return newNode.next;
+
+    }
+
+    public static Node reverseList3(Node head) {
+
+        if (head == null || head.next == null) {
+            return head;
+        }
+        Node pre = null;
+        Node next = null;
+
+        while (head != null) {
+            next = head.next;
+            head.next = pre;
+            pre = head;
+            head = next;
+        }
+
+        return pre;
+
+    }
+
+
+    public static DoubleNode reverse(DoubleNode head) {
+
+        DoubleNode pre = null;
+        DoubleNode next = null;
+
+        while (head != null) {
+
+            next = head.next;
+            head.next = pre;
+            head.pre = next;
+
+            pre = head;
+            head = next;
+        }
+        return pre;
+
 
     }
 
