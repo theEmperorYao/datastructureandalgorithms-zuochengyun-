@@ -126,13 +126,13 @@ public class SingleNumber {
         System.out.println("测试结束");
 
     }
-
-    private static int[] randomArray(int kinds, int range, int k, int m) {
+    // 出现m次数的数的最多种类
+    private static int[] randomArray(int maxKinds, int range, int k, int m) {
         int kTimeNum = randomNumber(range);
-
+        // kTimeNum出现的次数
         int times = Math.random() < 0.5 ? k : (int) ((Math.random() * (m - 1)) + 1);
-
-        int numKinds = (int) (Math.random() * kinds + 2);
+        // 所有数字出现种类的个数
+        int numKinds = (int) (Math.random() * maxKinds + 2);
 
         int[] arr = new int[times + (numKinds - 1) * m];
 
