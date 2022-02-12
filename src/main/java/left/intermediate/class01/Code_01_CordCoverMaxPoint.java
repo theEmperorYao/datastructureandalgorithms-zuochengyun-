@@ -8,7 +8,7 @@ import lombok.Data;
  * @Date 2022/2/10 10:24 下午:
  * @Author by tangyao
  */
-public class CordCoverMaxPoint {
+public class Code_01_CordCoverMaxPoint {
 
     public static int process(int[] arr, int cordLength) {
 
