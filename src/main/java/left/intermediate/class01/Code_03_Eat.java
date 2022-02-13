@@ -39,7 +39,7 @@ public class Code_03_Eat {
     }
 
     /**
-     * 打标法
+     * 打表法
      */
 
     public static String winner2(int num) {
