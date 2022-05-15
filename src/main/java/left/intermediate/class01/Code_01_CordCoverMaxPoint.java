@@ -47,15 +47,15 @@ public class Code_01_CordCoverMaxPoint {
     public static void main(String[] args) {
 
         int[] arr = new int[]{1, 3, 4, 5, 7, 23, 35, 44, 45, 46, 47, 56};
-        int max = process(arr, 40);
-        System.out.println("maxCoverPoint = " + max);
+//        int max = process(arr, 40);
+//        System.out.println("maxCoverPoint = " + max);
+//
+//
+//        int[] arr2 = {0, 13, 24, 35, 46, 57, 60, 72, 87};
+        int L = 5;
 
-
-        int[] arr2 = {0, 13, 24, 35, 46, 57, 60, 72, 87};
-        int L = 6;
-
-        System.out.println(maxPoint(arr2, L));
-        int max2 = process(arr2, L);
+        System.out.println(maxPoint(arr, L));
+        int max2 = process(arr, L);
         System.out.println(max2);
 
 
@@ -78,7 +78,7 @@ public class Code_01_CordCoverMaxPoint {
     public static int nearestIndex(int[] arr, int R, int value) {
         int L = 0;
         int index = R;
-        while (L < R) {
+        while (L <= R) {
             int mid = L + ((R - L) >> 1);
             if (arr[mid] >= value) {
                 index = mid;

@@ -1,9 +1,9 @@
 package left.base.class01;
 
 import left.base.class02.Code03_RadixSort;
-import left.baseCopy.Code_03_MergeSort;
-import left.baseCopy.Code_05_QuickSort;
-import left.baseCopy.Code_06_HeapSort;
+import left.baseCopy.test.Code_05_QuickSort;
+import left.baseCopy.test.Code_06_HeapSort;
+
 
 /**
  * @Classname SortTest
