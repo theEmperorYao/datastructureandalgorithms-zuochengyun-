@@ -64,17 +64,26 @@ public class Code_05_MaxOneBorderSize {
                 }
             }
         }
-        return maxLength + 1;
+        return maxLength == 0
+                ? maxLength
+                : maxLength + 1;
     }
 
     public static void main(String[] args) {
-        int[][] array2 = {
-                {1, 1, 1, 0, 1},
+//        int[][] array = {
+//                {0, 1, 0, 0, 0},
+//                {1, 1, 0, 0, 0},
+//                {0, 0, 0, 0, 0},
+//                {0, 0, 0, 0, 0},
+//                {0, 0, 0, 0, 0}};
+
+        int[][] array = {
                 {1, 1, 1, 1, 1},
                 {1, 1, 1, 1, 1},
-                {0, 0, 1, 1, 1},
+                {1, 1, 1, 1, 1},
+                {1, 1, 1, 1, 1},
                 {1, 1, 1, 1, 1}};
-        int i = maxAllOneBorder(array2);
+        int i = maxAllOneBorder(array);
         System.out.println("i = " + i);
     }
 
