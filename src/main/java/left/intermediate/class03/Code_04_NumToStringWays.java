@@ -1,5 +1,7 @@
 package left.intermediate.class03;
 
+import java.util.Random;
+
 public class Code_04_NumToStringWays {
 
     public static int numToStringWays(int num) {
@@ -11,6 +13,13 @@ public class Code_04_NumToStringWays {
         return process(String.valueOf(num).toCharArray(), 0);
     }
 
+    /**
+     * array[index] 能转出多少种有效的字符串表达
+     *
+     * @param array
+     * @param index
+     * @return
+     */
     public static int process(char[] array, int index) {
 
         //1、如果到最后一个位置，那么他之前的就是一种情况
@@ -41,8 +50,39 @@ public class Code_04_NumToStringWays {
         return res;
     }
 
+    public static int dpWays(int num) {
+        if (num < 1) {
+            return 0;
+        }
+
+        char[] chars = String.valueOf(num).toCharArray();
+        int N = chars.length;
+        int[] dp = new int[N + 1];
+        dp[N] = 1;
+
+        dp[N - 1] = chars[N - 1] == '0' ? 0 : 1;
+
+        for (int i = N - 2; i >= 0; i--) {
+            if (chars[i] == '0') {
+                dp[i] = 0;
+            } else {
+                dp[i] = dp[i + 1] + ((((chars[i] - '0') * 10 + (chars[i + 1] - '0')) < 27) ? dp[i + 2] : 0);
+            }
+        }
+
+        return dp[0];
+
+    }
+
     public static void main(String[] args) {
-        int i = numToStringWays(267);
-        System.out.println("i = " + i);
+
+        for (int j = 0; j < 10; j++) {
+            int random = new Random().nextInt(1000);
+            if (numToStringWays(random) != dpWays(random)) {
+                System.out.println("错误！" + random);
+                break;
+            }
+        }
+        System.out.println("完美！");
     }
 }
