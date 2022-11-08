@@ -22,6 +22,9 @@ public class Code_TopKTime2 {
         }
     }
 
+    /**
+     * 随时维持着 次数最多的前k个
+     */
     public static class TopKRecord {
         /**
          * 词频表
@@ -46,6 +49,7 @@ public class Code_TopKTime2 {
             nodeIndexMap = new HashMap<>();
             index = 0;
         }
+
 
         public void add(String str) {
             Node curNode;
@@ -85,7 +89,7 @@ public class Code_TopKTime2 {
         }
 
         /**
-         * 一个节点上来看交换
+         * 添加到最后的位置然后 不能向上看能不能交换
          *
          * @param index
          */
@@ -116,7 +120,7 @@ public class Code_TopKTime2 {
         }
 
         /**
-         * 从一个位置开始往下保持小根堆
+         * 从一个位置开始往下保持小根堆，看能不能交换
          *
          * @param index
          * @param heapSize
