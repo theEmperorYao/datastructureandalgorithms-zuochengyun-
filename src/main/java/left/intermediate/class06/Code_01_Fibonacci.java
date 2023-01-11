@@ -10,7 +10,7 @@ import java.util.stream.Stream;
  * @Description: TODO
  * @Version: 1.0
  */
-public class Fibonacci {
+public class Code_01_Fibonacci {
 
 
     public static int fastPower(int num, int power) {
