@@ -1,4 +1,4 @@
-package left.intermediate;
+package left.intermediate.class07;
 
 import java.util.Map;
 import java.util.TreeMap;
