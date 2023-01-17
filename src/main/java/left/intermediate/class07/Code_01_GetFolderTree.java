@@ -1,6 +1,5 @@
 package left.intermediate.class07;
 
-import java.util.Map;
 import java.util.TreeMap;
 
 /**
@@ -10,7 +9,7 @@ import java.util.TreeMap;
  * @Description: TODO
  * @Version: 1.0
  */
-public class class07_GetFolderTree {
+public class Code_01_GetFolderTree {
 
     static class Node {
         String name;
